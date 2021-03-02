@@ -1,0 +1,26 @@
+{
+	"name": "wooyen/yii2-xhprof",
+	"type": "yii2-extension",
+	"description": "Yii2 extension for xhprof",
+	"keywords": [ "xhprof", "yii2"],
+	"license": "GPLv3",
+	"homepage": "https://github.com/wooyen/yii2-smsotp",
+	"authors": [
+		{
+			"name": "WU Yan",
+			"email": "wooyen@163.com",
+			"homepage": "https://github.com/wooyen"
+		}
+	],
+	"require": {
+		"php": ">=5.5.0",
+		"ext-xhprof": "*",
+		"yiisoft/yii2": "~2.0.0",
+		"yiisoft/yii2-bootstrap4": "~2.0.6"
+	},
+	"autoload": {
+		"psr-4": {
+			"yii\\xhprof\\": "src/"
+		}
+	}
+}
